@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+
+	int i=1,n;
+	scanf("%d", &n);
+	while(i<=n){
+		
+		printf("%d", i);
+		if(i%2!=0){
+			printf("-");
+		}
+		if(i%2==0){
+			printf("+");
+		}
+		
+		i++;
+		
+	}
+return 0;
+}
+
