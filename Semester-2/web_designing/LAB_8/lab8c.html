@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 8 c</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .main{
+            width: 100%;
+            height: 500px;
+            background-color: rgb(228, 216, 239);
+        }
+        nav{
+            width: 100%;
+            height: 120px;
+            background-color: rgba(171, 133, 207,5);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav div{
+            width: 30%;
+            height: 100px;
+            justify-content: center;
+            display: flex;
+        }
+        .logo{
+            width: 100px;
+            height: 95px;
+            border-radius: 50%;
+            background-image: linear-gradient(to bottom,#b763f7,#8f63f7);
+            color: whitesmoke;
+            font-size: 70px;
+            font-family: "Lato", sans-serif;
+        }
+        .Alea{
+            color: whitesmoke;
+            font-family: "Lato", sans-serif;
+            margin-top: 20px;
+            font-size: 50px;
+        }
+        .menu
+        {
+            display: flex;
+        }
+        .menu div{
+            font-size: 30px;
+            font-family: "Lato", sans-serif;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        .letstlk a{
+            background-image: linear-gradient(to bottom,#960eff,#8f63f7);
+            border-radius: 25px;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div>
+                <div class="logo">A</div>
+                <div class="Alea">Alea</div>
+            </div>
+            <div class="menu">
+                <div><a href="#">Home</a></div>
+                <div><a href="#">About</a></div>
+                <div><a href="#">Services</a></div>
+                <div class="letstlk"><a href="#">Let's Talk</a></div>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
