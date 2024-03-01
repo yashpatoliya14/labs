@@ -1,78 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lab 8 c</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <style>
         /* import the text */
-        
+
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-        
-        *{
+
+        * {
             box-sizing: border-box;
         }
-        a{
+
+        a {
             text-decoration: none;
             color: white;
         }
-        .main{
+
+        .main {
             width: 100%;
             height: 1000px;
             background-color: white;
         }
-        nav{
+
+        nav {
             width: 100%;
             height: 120px;
-            background-color: rgba(171, 133, 207,5);
+            background-image: linear-gradient(to bottom, #cf91ff, #b89aff); 
             padding: 10px;
             display: flex;
             justify-content: space-between;
         }
-        nav div{
+
+        nav div {
             width: 40%;
             height: 100px;
             justify-content: center;
             display: flex;
         }
-        .logo{
+
+        .logo {
             width: 100px;
             height: 95px;
             border-radius: 50%;
-            background-image: linear-gradient(to bottom,#b763f7,#8f63f7);
+            background-image: linear-gradient(to bottom, #b763f7, #8f63f7);
             color: whitesmoke;
             font-size: 70px;
             font-family: "Lato", sans-serif;
         }
-        .Alea{
+
+        .Alea {
             color: whitesmoke;
             font-family: "Lato", sans-serif;
             margin-top: 20px;
             font-size: 50px;
         }
-        .menu
-        {
+
+        .menu {
             display: flex;
         }
-        .menu div{
+
+        .menu div {
             font-size: 30px;
             font-family: "Lato", sans-serif;
             color: white;
             display: flex;
             align-items: center;
         }
-        .letstlk a{
-            background-image: linear-gradient(to bottom,#960eff,#8f63f7);
+
+        .letstlk a {
+            background-image: linear-gradient(to bottom, #960eff, #8f63f7);
             border-radius: 25px;
             padding: 8px;
         }
 
         /* section-1 */
 
-        .sec-1{
+        .sec-1 {
             width: 100%;
             height: 150px;
             font-size: 40px;
@@ -84,22 +95,24 @@
 
         /* section-2 css */
 
-        .sec-2{
+        .sec-2 {
             display: flex;
             justify-content: center;
             width: 100%;
             height: 500px;
             padding: 30px;
         }
-        .sec-2 div{
+
+        .sec-2 div {
             margin-left: 1%;
             margin-right: 1%;
             width: 25%;
             /* background-color: #8f63f7; */
         }
-        .part1{
+
+        .part1 {
             height: 70px;
-            background-image: linear-gradient(to bottom,#960eff,#8f63f7);
+            background-image: linear-gradient(to bottom, #960eff, #8f63f7);
             border-radius: 75px;
             display: flex;
             justify-content: center;
@@ -110,14 +123,16 @@
             font-weight: 400;
             font-size: 20px;
         }
-        .part2 img{
+
+        .part2 img {
             border-radius: 150px;
-            object-fit:cover;
+            object-fit: cover;
         }
-        .part3{
+
+        .part3 {
             margin-top: 320px;
             height: 70px;
-            background-image: linear-gradient(to bottom,#960eff,#8f63f7);
+            background-image: linear-gradient(to bottom, #960eff, #8f63f7);
             border-radius: 75px;
             display: flex;
             justify-content: center;
@@ -131,24 +146,75 @@
 
         /* section 3 css  */
 
-        .sec-3{
+        .sec-3 {
             display: flex;
             width: 100%;
             height: 150px;
             background-color: #d7c6ff;
             padding: 20px;
             justify-content: space-evenly;
-            
+
         }
-        .sec-3 img{
+
+        .sec-3 img {
             margin-left: 10px;
             margin-right: 10px;
             object-fit: contain;
             aspect-ratio: 3/2;
             mix-blend-mode: color-burn;
         }
+
+        /* section 4 css */
+        .sec-4{
+            width: 100%;
+            padding: 10px;
+            height: 600px;
+            background-image: linear-gradient(to bottom, #cf91ff, #8f63f7);   
+        }
+        .sec4part1{
+            width:100%;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .sec4part1 div{
+            padding: 80px;
+            color: white;
+            font-family:"Poppins", sans-serif ;
+        }
+        .sec4part2{
+            display: flex;
+            justify-content: center;
+        }
+        .sec4part2 div{
+            width: 100px;
+            height: 100px;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+            font-weight: 600;
+            box-shadow: 0px 8px 2px 0px rgb(0, 0, 0,0.4);
+            font-family:"Poppins", sans-serif ;
+            margin-left: 150px;
+            background-image: linear-gradient(to bottom, #960eff, #8f63f7);
+        }
+        .sec4part2 label{
+            margin-right: 50px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            padding: 5px;
+            font-size: 20px;
+            color: white;
+            font-weight: 400;
+            font-family:"Poppins", sans-serif ;
+        }
     </style>
 </head>
+
 <body>
     <div class="main">
         <nav>
@@ -164,22 +230,23 @@
             </div>
         </nav>
         <section class="sec-1">
-            I'm <span style="color: #8f63f7;">Alia</span>.I will Create a web design <br>that can give value  to your company
+            I'm <span style="color: #8f63f7;">Alia</span>.I will Create a web design <br>that can give value to your
+            company
         </section>
         <section class="sec-2">
-            
+
             <div class="part1">UI/UX Designer <br>4 Years</div>
-            
+
             <div>
                 <div class="part2">
                     <img src="devloper.webp" alt="Devloper Image" width="300px" height="430px">
                 </div>
             </div>
-            
+
             <div class="part3">
                 Web Devloper <br> 2 Years
             </div>
-            
+
         </section>
         <section class="sec-3">
             <img src="dribbble.png" alt="#" width="14%" height="100px">
@@ -187,6 +254,21 @@
             <img src="medium.webp" alt="#" width="14%" height="100px">
             <img src="behance.png" alt="#" width="14%" height="100px">
         </section>
+        <section class="sec-4">
+            <div class="sec4part1">
+                <div style="font-size: 70px; font-weight: 800;">About <br> Me.</div>
+                <div style="font-size: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ea fugit perspiciatis totam architecto
+                    laborum quisquam ratione. Voluptatibus, error! Qui laborum earum rem! Fugiat omnis placeat
+                    consectetur aperiam, reiciendis veritatis!
+                </div>
+            </div>
+            <div class="sec4part2">
+                <div>4K</div><label>Projects Done</label>
+                <div>2K</div><label>Happy Clients</label>
+                <div>9K</div><label>Clients on Worldwide </label>
+            </div>
+        </section>
     </div>
 </body>
+
 </html>
