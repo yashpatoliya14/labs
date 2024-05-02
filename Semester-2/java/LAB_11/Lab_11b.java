@@ -27,8 +27,8 @@ public class Lab_11b {
             BufferedWriter bw = new BufferedWriter(new FileWriter("myDetail.txt"));
             
             bw.write("101,yash,230101\n");
-            bw.write("102,yashu,230104\n");
-            bw.write("103,nandu,230102\n");
+            bw.write("102,yashpatel,230104\n");
+            bw.write("103,drashan,230102\n");
             bw.close();
     
         }catch(Exception e){
