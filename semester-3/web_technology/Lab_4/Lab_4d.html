@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab_4a</title>
+  </head>
+  <body>
+    
+    <!-- 4. WAP to display products stored in array. (B) -->
+    <script>
+        
+      arr = [
+        {
+          pName: "harsh goggles",
+          price: "free",
+          damage: "noDamage",
+          detail: "red color with blue shining",
+        },
+        {
+          pName: "bakrushn site",
+          price: "100cr",
+          damage: "usable",
+          detail: "theshortnewsofindia.com",
+        },
+        {
+          pName: "om laptop",
+          price: "150",
+          damage: "nodamage",
+          detail: "dell g15",
+        },
+        {
+          pName: "glucose",
+          price: "225",
+          damage: "nodamage",
+          detail: "tang",
+        },
+      ];
+      for (let i = 0; i < arr.length; i++) {
+        document.write(`<table border="0" cellpadding="10px">
+        <tr>
+          <td>NAME :</td>
+          <td>${arr[i].pName}</td>
+        </tr>
+        <tr>
+          <td>PRICE :</td>
+          <td>${arr[i].price}</td>
+        </tr>
+        <tr>
+            <td>DAMAGE :</td>
+            <td>${arr[i].damage}</td>
+        </tr>
+        <tr>
+            <td>DETAIL : </td>
+            <td>${arr[i].detail}</td>
+        </tr>
+      </table>`);
+      }
+    </script>
+    <div>
+      
+      
+    </div>
+    <br />
+    <br />
+  </body>
+</html>

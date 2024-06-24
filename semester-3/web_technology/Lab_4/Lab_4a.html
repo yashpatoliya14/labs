@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab_4a</title>
+  </head>
+  <body>
+    <!-- //1. WAP to display Faculties stored in array. (A) -->
+    
+    <script>
+      arr = [
+        {
+          name: "arjun sir",
+          yearExperience: '15 years',
+          subject:'javascript'
+        },
+        {
+          name: "Dixita madam",
+          yearExperience: '16years',
+          subject:'dbms-1'
+        },
+        {
+          name: "praduman sir",
+          yearExperience: '17years',
+          subject:'data structure'
+        },
+        {
+          name: "shruti madam",
+          yearExperience: '18years',
+          subject:'data structure'
+        }
+      ];
+      for (let i = 0; i < arr.length; i++) {
+        document.write(
+        `<div>
+            name :${arr[i].name} <br>
+            yearExperience :${arr[i].yearExperience} <br>
+            subject : ${arr[i].subject}<br>
+        </div>
+        <br>
+        <br>`
+        )
+      }
+    </script>
+
+    
+  </body>
+</html>

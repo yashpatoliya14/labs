@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab_4a</title>
+  </head>
+  <body>
+    <!-- 3. WAP to display students stored in array. (A) -->
+    <script>
+      arr = [
+        {
+          name: "harsh bhimani",
+          education:'b.tech - cse',
+          hobbies:'watching movies'
+        },
+        {
+          name: "om bhut",
+          education:'b.tech - cse',
+          hobbies:'playing games'
+        },
+        {
+            name: "tank balkrushn",
+          education:'b.tech - cse',
+          hobbies:'watching reels'
+        },
+        {
+          name: "harsh jariya",
+          education:'b.tech - cse',
+          hobbies:'gym-exercise'
+        }
+      ];
+      for (let i = 0; i < arr.length; i++) {
+        document.write(
+        `<div>
+            name : ${arr[i].name} <br>
+            education : ${arr[i].education} <br>
+            hobbies : ${arr[i].hobbies}<br>
+        </div>
+        <br>
+        <br>`
+        )
+      }
+    </script>
+
+    
+  </body>
+</html>
