@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button">click</button>
+    <script>
+        var btn = document.querySelector('button');
+        btn.addEventListener('click', function()
+        {
+                let r  = Math.random()*250;
+                let g  = Math.random()*250;
+                let b  = Math.random()*250;
+            document.body.style.backgroundColor = `rgb(${r},${g},${b})`;
+        }
+        )
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation !</title>
+</head>
+<body>
+    <label>Username  : </label>
+    <input type="text" id="uname">
+    <label>Password  : </label>
+    <input type="text" id="pword">
+
+    <button type="button" onclick="validationForm()">Submit</button>
+</body>
+<script>
+    function validationForm() {
+        var uname = document.getElementById('uname').value;
+        var pword = document.getElementById('pword').value;
+        if(uname.length<8){
+            alert('Username must be 8 characters');
+        }
+        var pattern = '[!@#$%^&*]{1,}[0-9]{1,}'
+        var regexp = new RegExp(pattern)
+
+        if(!regexp.test(pword)){
+            alert('Password must contain at least one number and one special character')
+        }
+    }
+</script>
+</html>
