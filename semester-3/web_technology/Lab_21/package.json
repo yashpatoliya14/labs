@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4"
+  },
+  "name": "lab_21",
+  "version": "1.0.0",
+  "main": "middleware.js",
+  "scripts": {
+    "start": "nodemon crud2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

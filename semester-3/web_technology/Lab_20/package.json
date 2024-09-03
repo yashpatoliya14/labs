@@ -1,0 +1,11 @@
+{
+  "name": "lab_20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demoSchema.js",
+  "scripts": {
+    "start": "nodemon demoSchema.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lab_8",
+  "version": "1.0.0",
+  "description": "okok",
+  "main": "Lab_8a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
